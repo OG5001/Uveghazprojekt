@@ -11,7 +11,13 @@ namespace Uveghazprojekt
 		TECHNIKUS,
 		ADMIN
 	}
-
+	enum Szenzor
+	{
+		TULONTOZES,
+		SZARAZSAG,
+		BETEGSÉG,
+		TAPANYAGHIANY
+	}
 	internal class Enumok
 	{
 	}

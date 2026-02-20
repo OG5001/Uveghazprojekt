@@ -68,5 +68,13 @@ namespace Uveghazprojekt
 			this.novegyFaj = null;
 			this.egyedSzam = 0;
 		}
+		public override string ToString()
+		{
+			if (this.UresE)
+			{
+				return $"| {"Üres",8} |";
+			}
+			return $"| {this.novegyFaj.Azonosito,3} {this.EgyedSzam, 2}db |";
+		}
 	}	
 }
